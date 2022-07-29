@@ -20,6 +20,7 @@
 		0C7BB66B2893065F00C7C800 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BB66A2893065F00C7C800 /* DetailEditView.swift */; };
 		0C7BB66D2893E24200C7C800 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BB66C2893E24200C7C800 /* ThemeView.swift */; };
 		0C7BB66F2893F95A00C7C800 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BB66E2893F95A00C7C800 /* ThemePicker.swift */; };
+		0C7BB6712894487900C7C800 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BB6702894487900C7C800 /* MeetingHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		0C7BB66A2893065F00C7C800 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		0C7BB66C2893E24200C7C800 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		0C7BB66E2893F95A00C7C800 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		0C7BB6702894487900C7C800 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				0C0E9D5B289062C200C3DAB6 /* CardView.swift */,
 				0C0E9D4A2890478400C3DAB6 /* MeetingView.swift */,
+				0C7BB6702894487900C7C800 /* MeetingHeaderView.swift */,
 				0C7BB6662892BE2F00C7C800 /* ScrumView.swift */,
 				0C7BB6682892E12600C7C800 /* DetailView.swift */,
 				0C7BB66A2893065F00C7C800 /* DetailEditView.swift */,
@@ -183,6 +186,7 @@
 				0C7BB66F2893F95A00C7C800 /* ThemePicker.swift in Sources */,
 				0C0E9D5A2890619600C3DAB6 /* DailyScrum.swift in Sources */,
 				0C7BB6692892E12600C7C800 /* DetailView.swift in Sources */,
+				0C7BB6712894487900C7C800 /* MeetingHeaderView.swift in Sources */,
 				0C7BB66B2893065F00C7C800 /* DetailEditView.swift in Sources */,
 				0C7BB6672892BE2F00C7C800 /* ScrumView.swift in Sources */,
 				0C7BB6642892B31A00C7C800 /* TrailingIconLabelStyle.swift in Sources */,
