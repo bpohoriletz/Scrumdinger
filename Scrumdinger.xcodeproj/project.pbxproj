@@ -18,6 +18,7 @@
 		0C7BB6672892BE2F00C7C800 /* ScrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BB6662892BE2F00C7C800 /* ScrumView.swift */; };
 		0C7BB6692892E12600C7C800 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BB6682892E12600C7C800 /* DetailView.swift */; };
 		0C7BB66B2893065F00C7C800 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BB66A2893065F00C7C800 /* DetailEditView.swift */; };
+		0C7BB66D2893E24200C7C800 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BB66C2893E24200C7C800 /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0C7BB6662892BE2F00C7C800 /* ScrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumView.swift; sourceTree = "<group>"; };
 		0C7BB6682892E12600C7C800 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0C7BB66A2893065F00C7C800 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		0C7BB66C2893E24200C7C800 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				0C7BB6662892BE2F00C7C800 /* ScrumView.swift */,
 				0C7BB6682892E12600C7C800 /* DetailView.swift */,
 				0C7BB66A2893065F00C7C800 /* DetailEditView.swift */,
+				0C7BB66C2893E24200C7C800 /* ThemeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				0C0E9D5828905EB500C3DAB6 /* Theme.swift in Sources */,
 				0C0E9D4B2890478400C3DAB6 /* MeetingView.swift in Sources */,
 				0C0E9D492890478400C3DAB6 /* ScrumdingerApp.swift in Sources */,
+				0C7BB66D2893E24200C7C800 /* ThemeView.swift in Sources */,
 				0C0E9D5C289062C200C3DAB6 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
