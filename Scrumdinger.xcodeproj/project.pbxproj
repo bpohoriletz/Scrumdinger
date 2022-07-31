@@ -83,8 +83,8 @@
 		0C0E9D472890478400C3DAB6 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				0C7BB6652892BE1100C7C800 /* Views */,
 				0C0E9D5628905E9700C3DAB6 /* Models */,
+				0C7BB6652892BE1100C7C800 /* Views */,
 				0C0E9D482890478400C3DAB6 /* ScrumdingerApp.swift */,
 				0C7BB67228944C9000C7C800 /* ScrumProgressViewStyle.swift */,
 				0C7BB6632892B31A00C7C800 /* TrailingIconLabelStyle.swift */,
@@ -108,9 +108,9 @@
 			children = (
 				0CCD491D28969D4A00F902B0 /* AVPlayer+Ding.swift */,
 				0C0E9D592890619600C3DAB6 /* DailyScrum.swift */,
+				0CCD49222896C37200F902B0 /* History.swift */,
 				0C7BB67428944DEB00C7C800 /* ScrumTimer.swift */,
 				0C0E9D5728905EB500C3DAB6 /* Theme.swift */,
-				0CCD49222896C37200F902B0 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
