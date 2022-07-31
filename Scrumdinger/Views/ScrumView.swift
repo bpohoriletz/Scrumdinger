@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ScrumView: View {
     @Binding var scrums: [DailyScrum]
+    @Environment(\.scenePhase) private var scenePhase
     @State private var isPresentingNewScrumView = false
     @State private var newScrumData = DailyScrum.Data()
+    let saveAction: ()->Void
     
     var body: some View {
         List {
@@ -37,9 +39,10 @@ struct ScrumView: View {
                     .toolbar() {
                         ToolbarItem(placement: .confirmationAction){
                             Button("Add", action: {
+                                isPresentingNewScrumView = false
                                 let newScrum = DailyScrum(data: newScrumData)
                                 scrums.append(newScrum)
-                                isPresentingNewScrumView = false
+                                newScrumData = DailyScrum.Data()
                             })
                         }
                         ToolbarItem(placement: .cancellationAction){
@@ -51,13 +54,16 @@ struct ScrumView: View {
                     }
             }
         }
+        .onChange(of: scenePhase){ phase in
+            if phase == .inactive { saveAction() }
+        }
     }
 }
 
 struct ScrumView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            ScrumView(scrums: .constant(DailyScrum.sampleData))
+            ScrumView(scrums: .constant(DailyScrum.sampleData), saveAction: {})
         }
     }
 }
