@@ -27,6 +27,7 @@
 		0CCD491E28969D4A00F902B0 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD491D28969D4A00F902B0 /* AVPlayer+Ding.swift */; };
 		0CCD49212896A02A00F902B0 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CCD49202896A02A00F902B0 /* ding.wav */; };
 		0CCD49232896C37200F902B0 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD49222896C37200F902B0 /* History.swift */; };
+		0CCD49252896E0A400F902B0 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD49242896E0A400F902B0 /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		0CCD491D28969D4A00F902B0 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		0CCD49202896A02A00F902B0 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		0CCD49222896C37200F902B0 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		0CCD49242896E0A400F902B0 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				0CCD49222896C37200F902B0 /* History.swift */,
 				0C7BB67428944DEB00C7C800 /* ScrumTimer.swift */,
 				0C0E9D5728905EB500C3DAB6 /* Theme.swift */,
+				0CCD49242896E0A400F902B0 /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				0C7BB67528944DEB00C7C800 /* ScrumTimer.swift in Sources */,
 				0C0E9D5A2890619600C3DAB6 /* DailyScrum.swift in Sources */,
 				0C7BB6692892E12600C7C800 /* DetailView.swift in Sources */,
+				0CCD49252896E0A400F902B0 /* ScrumStore.swift in Sources */,
 				0C7BB6712894487900C7C800 /* MeetingHeaderView.swift in Sources */,
 				0C7BB66B2893065F00C7C800 /* DetailEditView.swift in Sources */,
 				0C7BB6672892BE2F00C7C800 /* ScrumView.swift in Sources */,
