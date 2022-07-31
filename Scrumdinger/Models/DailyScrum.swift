@@ -52,6 +52,14 @@ extension DailyScrum {
         lengthInMinutes = Int(data.lengthInMinutes)
         theme = data.theme
     }
+    
+    init(id: UUID = UUID(), data: Data) {
+        self.id = id
+        self.title = data.title
+        self.attendees = data.attendees
+        self.lengthInMinutes = Int(data.lengthInMinutes)
+        self.theme = data.theme
+    }
 }
 
 extension DailyScrum {
