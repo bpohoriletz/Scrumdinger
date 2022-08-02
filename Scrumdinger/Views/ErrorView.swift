@@ -50,6 +50,6 @@ struct ErrorView_Previews: PreviewProvider {
     }
     
     static var previews: some View {
-        ErrorViw(errorWrapper: wrapper)
+        ErrorView(errorWrapper: wrapper)
     }
 }
